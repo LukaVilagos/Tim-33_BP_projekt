@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS Sustav_za_rezervaciju_cuvara_ljubimaca;
+CREATE DATABASE Sustav_za_rezervaciju_cuvara_ljubimaca;
+USE Sustav_za_rezervaciju_cuvara_ljubimaca;
