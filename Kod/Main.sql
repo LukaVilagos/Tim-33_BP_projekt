@@ -7,8 +7,6 @@ CREATE TABLE vrsta (
     naziv VARCHAR(30) NOT NULL,
     opis TEXT NOT NULL,
     ishrana ENUM('mesožder', 'biljožder', 'svežder') NOT NULL,
-    slika BLOB,
-    
     CONSTRAINT PRIMARY KEY (id)
 );
 
@@ -21,7 +19,6 @@ CREATE TABLE pasmina (
 	tezina FLOAT(2) NOT NULL,
 	zivotni_vijek TINYINT UNSIGNED NOT NULL,
     posebne_potrebe TEXT,
-    slika BLOB,
     
     CONSTRAINT PRIMARY KEY (id),
     CONSTRAINT FOREIGN KEY (vrsta_id) REFERENCES vrsta (id) ON DELETE SET NULL
@@ -41,7 +38,6 @@ CREATE TABLE ljubimac (
     posebne_potrebe TEXT,
     socijalnost TEXT,
     akitvnosti TEXT,
-    fotografija BLOB,
     
     CONSTRAINT PRIMARY KEY (id),
     CONSTRAINT FOREIGN KEY (pasmina_id) REFERENCES pasmina (id) ON DELETE SET NULL
@@ -59,7 +55,6 @@ CREATE TABLE korisnik (
     drzava VARCHAR(56),
     spol ENUM('M', 'Ž'),
     potvrdeno BOOL,
-    profilna_slika BLOB,
     
     CONSTRAINT PRIMARY KEY (id)
 );
@@ -76,21 +71,19 @@ CREATE TABLE korisnik_ljubimac (
 
 CREATE TABLE znacajka (
 	id INT AUTO_INCREMENT,
-    naziv VARCHAR(30) NOT NULL,
+    naziv VARCHAR(256) NOT NULL,
     opis TEXT,
     dostupnost TEXT,
     cijena_dodatka FLOAT(2),
     vrijeme_otvaranja TIME,
     vrijeme_zatvaranja TIME,
-    ikonica BLOB,
     
     CONSTRAINT PRIMARY KEY (id)
 );
 
 CREATE TABLE tip (
 	id INT AUTO_INCREMENT,
-    naziv varchar(30) NOT NULL,
-    ikonica blob,
+    naziv varchar(256) NOT NULL,
     opis TEXT,
     
     CONSTRAINT PRIMARY KEY (id)
@@ -108,7 +101,6 @@ CREATE TABLE vlasnik (
     drzava VARCHAR(56),
     spol ENUM('M', 'Ž'),
     potvrdeno BOOL,
-    profilna_slika BLOB,
     
     CONSTRAINT PRIMARY KEY (id)
 );
@@ -148,7 +140,6 @@ CREATE TABLE ustanova (
     web_stranica VARCHAR(256),
     kapacitet TEXT,
     ocjena FLOAT(1),
-    slika BLOB,
     regija_id INT,
     tip_id INT,
     vlasnik_id INT,
@@ -192,7 +183,6 @@ CREATE TABLE cuvar (
     drzava VARCHAR(56),
     spol ENUM('M', 'Ž'),
     potvrdeno BOOL,
-    profilna_slika BLOB,
     
     CONSTRAINT PRIMARY KEY (id)
 );
@@ -223,7 +213,6 @@ CREATE TABLE usluga (
     naziv VARCHAR (256),
     opis TEXT,
     cijena FLOAT(2),
-    slika blob,
     trajanje TEXT,
     
     CONSTRAINT PRIMARY KEY (id),
