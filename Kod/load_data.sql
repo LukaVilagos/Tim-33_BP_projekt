@@ -74,6 +74,31 @@ LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (naziv,opis,povrsina);
 
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/data/mjesto_interesa.csv'
+INTO TABLE mjesto_interesa
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES
+(naziv,adresa,broj_telefona,email,radno_vrijeme,opis,web_stranica,regija_id);
+
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/data/ustanova.csv'
+INTO TABLE ustanova
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES
+(naziv,adresa,broj_telefona,email,radno_vrijeme,opis,web_stranica,kapacitet,ocjena,regija_id,tip_id,vlasnik_id);
+
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/data/ustanova_znacajka.csv'
+INTO TABLE ustanova_znacajka
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES
+(ustanova_id,znacajka_id);
+
+
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/data/aktivnost.csv'
 INTO TABLE aktivnost
 FIELDS TERMINATED BY ','
@@ -97,3 +122,11 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (cuvar_id, aktivnost_id);
+
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/data/cuvar_ustanova.csv'
+INTO TABLE cuvar_ustanova
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES
+(cuvar_id,ustanova_id);
