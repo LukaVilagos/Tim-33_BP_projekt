@@ -1,0 +1,12 @@
+naziv,opis,trajanje,intenzitet,potrebni_resursi
+Šetnja psa, Izvedite psa u šetnju po susjedstvu, 00:30:00, Nisko, Povodac vreće za otpad
+Kupanje, Okupajte psa i očistite mu dlaku, 01:00:00,Srednje,Šampon za pse ručnici
+Tiješanje, Podšišajte krzno psa očistite uši i ošišajte nokte, 01:30:00, Visoko, Alati za šišanje strpljenje
+Vrijeme za igru, Uključite se u aktivnosti igre sa psom, 00:45:00, Srednje, Igračke poslastice
+Hranjenje, Osigurajte obroke i svježu vodu, 00:15:00, Nisko, Hrana za pse posuda za vodu
+Cat Sitting, Posjetite mačke u njihovom domu nahranite ih i očistite kutije s pijeskom,00:30:00,Nisko,Hrana za mačke lopatica za pijesak
+Čišćenje kaveza za ptice, Očistite kaveze za ptice promijenite posteljinu i napunite vodom i hranom, 00:20:00, Nisko, Sredstva za čišćenje sigurna za ptice
+Održavanje staništa gmazova, Očistite nastambe za gmazove provjerite temperaturu i osigurajte svježu vodu, 00:30:00, Nisko, Sredstva za čišćenje sigurna za gmazove
+Njega akvarija, Očistite akvarij provjerite kvalitetu vode i nahranite ribe,00:20:00,Nisko,Vakuum za akvarij hrana za ribe
+Igranje malih sisavaca, Interakcija sa zečevima zamorcima ili hrčcima, 00:20:00, Srednje, Igračke poslastice
+Provjera zdravlja egzotičnih ljubimaca, Prati zdravlje gmazova ptica ili drugih egzotičnih kućnih ljubimaca, 00:15:00, Nisko, Poznavanje potreba specifičnih za vrstu
