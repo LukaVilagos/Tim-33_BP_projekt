@@ -1,3 +1,5 @@
+USE Sustav_za_rezervaciju_cuvara_ljubimaca;
+
 select * from usluga;
 select * from cuvar;
 select * from aktivnost;
