@@ -1,0 +1,51 @@
+cuvar_id,naziv,opis,cijena,trajanje
+1,Popodnevno čuvanje,Čuvanje kućnih ljubimaca tijekom popodneva uključujući igru hranjenje i šetnju,20.00,4 sata
+2,Vikend čuvanje,Čuvanje kućnih ljubimaca tijekom cijelog vikenda s osiguranim obrocima igrom i šetnjama,100.00,48 sati
+3,Dnevno čuvanje,Čuvanje kućnih ljubimaca tijekom cijelog dana uključujući obroke i šetnje,50.00,12 sati
+4,Tjedno čuvanje,Čuvanje kućnih ljubimaca tijekom cijelog tjedna s potpunom skrbi hranjenjem i igrom,300.00,7 dana
+5,Jutarnje čuvanje,Čuvanje kućnih ljubimaca tijekom jutra uključujući hranjenje i kratku šetnju,15.00,3 sata
+6,Noćno čuvanje,Čuvanje kućnih ljubimaca tijekom noći s osiguranim smještajem i sigurnošću,40.00,12 sati
+7,Hitan posjet,Hitno čuvanje kućnih ljubimaca na nekoliko sati u slučaju nužde,25.00,2 sata
+8,Šetanje pasa,Profesionalno šetanje pasa s igrama na otvorenom,10.00,1 sat
+9,Trening poslušnosti,Osnovni trening poslušnosti za pse s pozitivnim pojačanjem,60.00,1 sat
+10,Posjet veterinaru,Pratnja kućnog ljubimca tijekom posjeta veterinaru,30.00,2 sata
+11,Spa dan za kućne ljubimce,Kompletan spa tretman uključujući kupanje četkanje i opuštanje,80.00,5 sati
+12,Igra u dvorištu,Organizirana igra i vježba u sigurnom dvorištu,20.00,2 sata
+13,Dnevni kamp za kućne ljubimce,Cjelodnevni kamp s različitim aktivnostima za kućne ljubimce,70.00,8 sati
+14,Kućna posjeta,Posjeta kućnom ljubimcu u njegovom domu radi hranjenja i igre,25.00,1 sat
+15,Pet Taxi,Usluga prijevoza kućnih ljubimaca na razne lokacije,35.00,3 sata
+16,Dnevna briga za starije kućne ljubimce,Posebna briga za starije kućne ljubimce uključujući laganu vježbu i medicinsku njegu,45.00,8 sati
+17,Čuvanje egzotičnih kućnih ljubimaca,Specijalizirana briga za egzotične kućne ljubimce uključujući hranjenje i održavanje staništa,75.00,24 sata
+18,Socializacija za štence,Interaktivne igre i vježbe za štence za poboljšanje socijalizacije,30.00,2 sata
+19,Poslijepodnevni odmor,Čuvanje i nadzor kućnih ljubimaca tijekom poslijepodneva s mirnim aktivnostima,15.00,4 sata
+20,Njega i briga za mačke,Njega i briga posebno prilagođena potrebama mačaka,35.00,6 sati
+21,Planinarenje sa psima,Organizirano planinarenje sa psima u prirodi,50.00,5 sati
+22,Noćni boravak za mačke,Osiguravanje noćnog smještaja i brige za mačke,25.00,12 sati
+23,Trening trikova za pse,Napredni trening za pse za učenje novih trikova i vještina,45.00,1 sat
+24,Igra u parku,Održavanje igre i socijalizacije kućnih ljubimaca u parku,20.00,3 sata
+25,Posjeta groomeru,Pratnja kućnog ljubimca na termin kod groomera,20.00,2 sata
+26,Boravak u dvorištu,Cjelodnevni boravak i nadzor u sigurnom dvorištu,30.00,8 sati
+27,Dnevni boravak za ptice,Briga i nadzor za ptice uključujući hranjenje i let u sigurnom prostoru,25.00,6 sati
+28,Briga za male životinje,Specijalizirana briga za male životinje poput zečeva i zamoraca,20.00,4 sata
+29,Usluga fotografiranja,Napravite prekrasne fotografije vašeg ljubimca s profesionalnim fotografom,50.00,2 sata
+30,Čuvanje tijekom odmora,Dugoročna briga za kućne ljubimce dok ste na odmoru,400.00,14 dana
+1,Akvarij briga,Održavanje i briga za akvarijske ribe uključujući hranjenje i čišćenje,35.00,7 dana
+2,Igraonica za pse,Organizirana igra i socijalizacija za pse u sigurnom prostoru,15.00,2 sata
+3,Dan na farmi,Uživanje u danu na farmi s drugim životinjama,40.00,6 sati
+4,Usluga hranjenja,Redovito hranjenje kućnih ljubimaca prema rasporedu,10.00,1 sat
+5,Briga za kućne ljubimce s posebnim potrebama,Posebna briga za kućne ljubimce s medicinskim ili specijalnim potrebama,60.00,8 sati
+6,Pet party organizacija,Organizacija zabava za kućne ljubimce uključujući igre i poslastice,100.00,3 sata
+7,Usluga njege krzna,Profesionalna njega i čišćenje krzna kućnih ljubimaca,25.00,2 sata
+8,Usluga masaže za kućne ljubimce,Opustite svog ljubimca s profesionalnom masažom,30.00,1 sat
+9,Obuka za agility,Trening za pse za agility natjecanja,45.00,1 sat
+10,Noćni kamp za kućne ljubimce,Noćni kamp s različitim aktivnostima za kućne ljubimce,50.00,12 sati
+11,Dan u spa centru,Kompletan spa dan uključujući masažu njegu krzna i opuštanje,90.00,8 sati
+12,Usluga nadzora,Usluga nadzora kućnih ljubimaca putem kamera i redovitih posjeta,20.00,24 sata
+13,Trening za izložbe,Priprema kućnih ljubimaca za sudjelovanje na izložbama,55.00,2 sata
+14,Dnevna šetnja,Redovite dnevne šetnje za kućne ljubimce,12.00,1 sat
+15,Posjeta školama,Uvođenje kućnih ljubimaca u škole za edukativne svrhe,25.00,2 sata
+16,Briga za trudne kućne ljubimce,Specijalizirana briga za trudne kućne ljubimce,50.00,24 sata
+17,Čuvanje mladunaca,Briga za mlade kućne ljubimce dok su vlasnici odsutni,30.00,12 sati
+18,Obuka za lovačke pse,Trening lovačkih pasa za radne aktivnosti,70.00,3 sata
+19,Akvarij dizajn,Profesionalni dizajn i postavljanje akvarija,100.00,5 sati
+20,Pet event planner,Organizacija događanja za kućne ljubimce poput rođendana,150.00,4 sata

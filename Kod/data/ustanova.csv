@@ -1,0 +1,30 @@
+naziv,adresa,broj_telefona,email,radno_vrijeme,opis,web_stranica,kapacitet,ocjena,regija_id,tip_id,vlasnik_id
+Happy Tails Hotel,123 Main Street Downtown,123-456-7890,info@happytailshotel.com,08:00-20:00,Luksuzni hotel za kućne ljubimce koji nudi vrhunske sadržaje i njegu,http://www.happytailshotel.com,50 kućnih ljubimaca,4.5,1,1,1
+Cozy Paws Inn,456 Elm Street Suburb,234-567-8901,contact@cozypawsinn.com,09:00-18:00,Ugodna gostionica za kućne ljubimce koja pruža atmosferu kao kod kuće,http://www.cozypawsinn.com,20 kućnih ljubimaca,4.2,2,2,2
+Pet Paradise Villas,789 Oak Street Uptown,345-678-9012,support@petparadisevillas.com,07:00-19:00,Privatne vile za kućne ljubimce u udobnosti i luksuzu,http://www.petparadisevillas.com,30 kućnih ljubimaca,4.8,3,3,3
+Furry Friends Home Stay,321 Pine Street Riverside,456-789-0123,info@furryfriendshomestay.com,09:00-21:00,Opcija kućnog smještaja gdje kućni ljubimci žive s obitelji,http://www.furryfriendshomestay.com,10 kućnih ljubimaca,4.0,4,4,4
+Pet Haven Apartments,654 Maple Avenue City Center,567-890-1234,contact@pethavenapartments.com,08:00-22:00,Apartmani dizajnirani posebno za brigu o kućnim ljubimcima,http://www.pethavenapartments.com,25 kućnih ljubimaca,4.3,5,5,5
+Luxury Pet Resort,987 Cedar Street Seaside,678-901-2345,info@luxurypetresort.com,06:00-20:00,Odmaralište koje nudi luksuzni smještaj za kućne ljubimce,http://www.luxurypetresort.com,40 kućnih ljubimaca,4.9,6,6,6
+Pet Care Cottage,321 Birch Road Countryside,789-012-3456,info@petcarecottage.com,08:00-18:00,Ljupka koliba koja nudi usluge brige za kućne ljubimce,http://www.petcarecottage.com,15 kućnih ljubimaca,4.1,7,7,7
+Animal Oasis,654 Willow Drive Suburb,890-123-4567,contact@animaloasis.com,09:00-19:00,Oaza za opuštanje i uživanje kućnih ljubimaca,http://www.animaloasis.com,35 kućnih ljubimaca,4.7,8,8,8
+Urban Pet Suites,987 Spruce Street Downtown,012-345-6789,info@urbanpetsuites.com,08:00-20:00,Apartmani za kućne ljubimce u urbanom centru,http://www.urbanpetsuites.com,45 ljubimaca,4.4,9,9,9
+Pet Retreat House,123 Ash Avenue Beachside,123-456-7890,info@petretreathouse.com,07:00-19:00,Kuća koja nudi utočište za kućne ljubimce,http://www.petretreathouse.com,20 kućnih ljubimaca,4.6,10,10,10
+Happy Paws Lodge,456 Cherry Lane Countryside,234-567-8901,info@happypawslodge.com,09:00-18:00,Lodge pruža izvrsnu skrb za kućne ljubimce,http://www.happypawslodge.com,25 kućnih ljubimaca,4.3,11,11,11
+Pet Stay Haven,789 Dogwood Street Suburb,345-678-9012,contact@petstayhaven.com,08:00-20:00,Utočište za kućne ljubimce dok su vlasnici odsutni,http://www.petstayhaven.com,30 kućnih ljubimaca,4.5,12,12,12
+Kuća za životinje,321 Fir Road Riverside,456-789-0123,support@animalhouse.com,07:00-19:00,Kuća posebno za smještaj kućnih ljubimaca,http://www.animalhouse.com,50 kućnih ljubimaca,4.7,13,13,13
+Pet Comfort Inn,654 Ivy Lane City Center,567-890-1234,info@petcomfortinn.com,08:00-18:00,Gostionica koja nudi ugodan boravak za kućne ljubimce,http://www.petcomfortinn.com,20 kućnih ljubimaca,4.2,14,1,14
+Pet Rest Apartments,987 Juniper Street Uptown,678-901-2345,info@petrestapartments.com,09:00-21:00,Apartmani za odmor i opuštanje kućnih ljubimaca,http://www.petrestapartments.com,25 kućnih ljubimaca,4.4,15,2,15
+Pet Suites Deluxe,321 Laurel Avenue Seaside,789-012-3456,info@petsuitesdeluxe.com,08:00-22:00,Deluxe apartmani za smještaj kućnih ljubimaca,http://www.petsuitesdeluxe.com,35 kućnih ljubimaca,4.8,16,3,16
+Pet Friendly Villa,654 Magnolia Street Beachside,890-123-4567,contact@petfriendlyvilla.com,07:00-19:00,Vila koja dočekuje kućne ljubimce raširenih ruku,http://www.petfriendlyvilla.com,15 ljubimaca,4.1,17,4,17
+Paws Inn,987 Nutmeg Avenue Old Town,012-345-6789,info@pawsinn.com,08:00-20:00,Gostionica za potrebe kućnih ljubimaca,http://www.pawsinn.com,40 kućnih ljubimaca,4.5,18,5,18
+Pet Palace,123 Olive Road Suburb,123-456-7890,contact@petpalace.com,09:00-18:00,Palača koja nudi kraljevski tretman za kućne ljubimce,http://www.petpalace.com,50 ljubimaca,4.9,19,6,19
+Kućica za kućne ljubimce,456 Peach Street Riverside,234-567-8901,info@petcottage.com,08:00-20:00,Kućica koja nudi brigu o kućnim ljubimcima,http://www.petcottage.com,20 kućnih ljubimaca,4.2,20,7,20
+Pet Homestay,789 Quince Lane Countryside,345-678-9012,support@pethomestay.com,07:00-19:00,Usluga za kućne ljubimce u ugodnom okruženju,http://www.pethomestay.com,15 kućnih ljubimaca,4.0,21,8,21
+Animal Comfort Inn,321 Redwood Road City Center,456-789-0123,info@animalcomfortinn.com,08:00-18:00,Gostionica koja nudi udoban boravak za kućne ljubimce,http://www.animalcomfortinn.com,25 kućnih ljubimaca,4.3,1,9,1
+Happy Pets Hotel,654 Sycamore Street Downtown,567-890-1234,info@happypetshotel.com,09:00-21:00,Hotel koji pruža vrhunsku skrb za kućne ljubimce,http://www.happypetshotel.com,40 kućnih ljubimaca,4.7,2,10,2
+Kućica za kućne ljubimce,987 Tulip Avenue Uptown,678-901-2345,info@petlodge.com,08:00-20:00,Koliba s izvrsnim sadržajima za kućne ljubimce,http://www.petlodge.com,30 kućnih ljubimaca,4.4,3,11,30
+Pet House,321 Vine Street Beachside,789-012-3456,info@pethouse.com,07:00-19:00,Kuća koja nudi sigurno utočište za kućne ljubimce,http://www.pethouse.com,20 kućnih ljubimaca,4.1,4,12,4
+Pet Rest Inn,654 Walnut Road Seaside,890-123-4567,info@petrestinn.com,09:00-18:00,Gostionica koja pruža miran boravak za kućne ljubimce,http://www.petrestinn.com,25 kućnih ljubimaca,4.3,5,13,5
+Utočište za životinje,987 Xenia Avenue Riverside,012-345-6789,info@animalretreat.com,08:00-22:00,Utočište koje nudi miran boravak za kućne ljubimce,http://www.animalretreat.com,35 ljubimaca,4.6,1,3,28
+Pet Suites,123 Yew Street Countryside,123-456-7890,contact@petsuites.com,08:00-20:00,Apartmani koji nude luksuzan boravak za kućne ljubimce,http://www.petsuites.com,30 ljubimaca,4.8,7,2,7
+Pet Comfort Lodge,456 Zinnia Lane Suburb,234-567-8901,info@petcomfortlodge.com,09:00-21:00,Koliba koja nudi udoban boravak za kućne ljubimce,http://www.petcomfortlodge.com,40 kućnih ljubimaca,4.4,8,3,8

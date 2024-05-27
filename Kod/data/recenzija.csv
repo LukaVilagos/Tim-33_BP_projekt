@@ -1,0 +1,31 @@
+korisnik_id,ustanova_id,cuvar_id,naslov,tekst,ocjena,datum
+1,1,2,Odlična usluga,Sve je bilo savršeno moj pas je bio sretan i zadovoljan!,5,2024-01-15 14:30:00
+2,3,4,Fantastično iskustvo,Moj mačak se sjajno zabavio usluga je bila izvrsna!,5,2024-02-20 09:15:00
+3,5,6,Preporučujem,Izvrsna usluga ljubazni čuvari i odlična briga za ljubimce.,4,2024-03-10 16:45:00
+4,2,8,Nema zamjerke,Usluga je bila u redu ali može biti malo bolja.,3,2024-01-25 11:00:00
+5,4,1,Super zadovoljna,Moji ljubimci su se odlično proveli sigurno ću ponovno koristiti uslugu.,5,2024-04-05 08:30:00
+6,7,3,Prosječno,Moglo bi biti bolje ali nije bilo loše.,3,2024-05-12 19:00:00
+7,6,5,Fantastično,Prava pažnja prema detaljima i vrlo ljubazni čuvari.,5,2024-03-14 12:00:00
+8,8,7,Dobra usluga,Općenito dobro iskustvo ali ima mjesta za poboljšanje.,4,2024-02-02 14:00:00
+9,9,9,Izvrsno,Veoma sam zadovoljna uslugom i ljubaznošću osoblja.,5,2024-01-17 13:00:00
+10,11,10,Sjajna briga,Moj ljubimac je bio sretan i dobro zbrinut.,4,2024-04-22 10:30:00
+11,10,12,Odlično,Sve je bilo izvrsno od komunikacije do brige o ljubimcu.,5,2024-03-03 15:45:00
+12,12,11,Moglo bi biti bolje,Bilo je nekoliko problema ali nije bilo previše loše.,3,2024-05-01 17:30:00
+13,13,13,Dobro iskustvo,Usluga je bila zadovoljavajuća i ljubimci su bili sretni.,4,2024-02-14 09:00:00
+14,14,14,Solidno,Čuvari su bili pristojni i profesionalni.,4,2024-03-20 14:15:00
+15,15,15,Odličan tretman,Moji ljubimci su se dobro proveli i bili su zadovoljni.,5,2024-01-05 13:30:00
+16,16,16,Preporuka svima,Preporučila bih ovu uslugu svima koji trebaju brigu o ljubimcima.,5,2024-04-10 11:15:00
+17,17,17,Dobra usluga,Bilo je u redu ali može biti malo bolje organizirano.,3,2024-02-28 12:45:00
+18,18,18,Super,Moj ljubimac je bio sretan i siguran.,5,2024-05-15 16:00:00
+19,19,19,Osrednje,Nije bilo loše ali ima prostora za poboljšanje.,3,2024-03-18 15:30:00
+20,20,20,Fenomenalno,Izvrsna usluga i vrlo ljubazno osoblje.,5,2024-01-21 08:45:00
+21,21,21,Pristojno,Čuvari su bili ljubazni i profesionalni.,4,2024-04-02 18:00:00
+22,22,22,Najbolje iskustvo do sada,Moji ljubimci su se savršeno proveli i dobro su zbrinuti.,5,2024-03-05 09:15:00
+23,23,23,Prosječno iskustvo,Usluga je bila prosječna moglo bi biti bolje.,3,2024-02-10 10:30:00
+24,24,24,Fantastičan tretman,Moj ljubimac je bio sretan i dobro zbrinut.,5,2024-05-18 13:45:00
+25,25,25,Solidna usluga,Bilo je u redu ali ima prostora za poboljšanje.,4,2024-01-30 12:00:00
+26,26,26,Dobro,Općenito dobro iskustvo ali može biti bolje.,4,2024-04-25 11:00:00
+27,27,27,Sjajno iskustvo,Moji ljubimci su bili sretni i dobro zbrinuti.,5,2024-03-12 15:00:00
+28,28,28,Pristojna usluga,Čuvari su bili pristojni i profesionalni.,4,2024-02-18 09:45:00
+29,29,29,Fenomenalna briga,Izvrsna usluga i vrlo ljubazno osoblje.,5,2024-01-12 14:30:00
+30,1,1,Dobro iskustvo,Moj ljubimac je bio sretan i dobro zbrinut.,4,2024-04-08 16:45:00

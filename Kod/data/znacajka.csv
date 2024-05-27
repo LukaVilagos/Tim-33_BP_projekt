@@ -9,15 +9,15 @@ Igraonica za mačke, namjenska igraonica sa strukturama za penjanje i skrovišti
 Volijera za ptice,Prostrana volijera u kojoj ptice mogu slobodno letjeti i družiti se,Tijekom radnog vremena,3.00,09:00:00,17:00:00
 Područje za sunčanje gmazova, toplo UV-osvijetljeno kućište za gmazove da uživaju u prirodnoj sunčevoj svjetlosti, po dogovoru, 2.50, 11:00:00,15:00:00
 Zona za obogaćivanje malih sisavaca, Interaktivni kotači za tunele i igračke za hrčke zamorce i kuniće, Tijekom radnog vremena,0.00,09:00:00,19:00:00
-"Veliko dvorište", "Veliko dvorište u kojem ljubimci mogu slobodno trčati i igrati se s drugim ljubimcima.","Dostupno",10.00,"08:00:00","20:00:00"
-"Aviary za ptice","Prostrana volijera u kojoj ptice mogu letjeti i družiti se.","Dostupan",12.50,"08:00:00","16:00:00"
-"Kuća za gmazove", "Kontrolirano okruženje za udoban boravak gmazova.", "Ograničena dostupnost", 20.00, "10:00:00", "18:00:00"
-"Cat Lounge","Miran i ugodan salon posebno dizajniran za mačke.","Dostupan",8.00,"09:00:00","19:00:00"
-"Ograda za male životinje", "Zatvoreno igralište za male životinje poput zečeva i zamoraca.", "Dostupno",5.00,"07:00:00","19:00:00"
-"Ribnjak","Miran ribnjak za ribe sa svakodnevnim hranjenjem i održavanjem.","Dostupan",18.00,"09:00:00","17:00:00"
-"Zona egzotičnih kućnih ljubimaca", "Poseban prostor za egzotične kućne ljubimce poput zmija i guštera.","Dostupan",22.00,"10:00:00","16:00:00"
-"Služba za šetanje pasa","Svakodnevne šetnje pasa uz obučeno osoblje.","Dostupan",10.00,"07:00:00","20:00:00"
-"Tečajevi dresure kućnih ljubimaca","Tečajevi dresure za kućne ljubimce svih vrsta za učenje osnovnih naredbi i trikova.","Dostupno",30.00,"08:00:00","18:00:00"
-"Fotografiranje kućnih ljubimaca","Profesionalno fotografiranje kućnih ljubimaca.","Dostupno",50.00,"10:00:00","16:00:00"
-"Pet Taxi Service", "Usluga prijevoza za preuzimanje i iskrcaj kućnih ljubimaca.","Dostupan",15.00,"06:00:00","22:00:00"
-"Veterinar na poziv","Dežurna veterinarska služba za sve hitne slučajeve.","Dostupan",40.00,"00:00:00","23:59:59"
+Veliko dvorište,Veliko dvorište u kojem ljubimci mogu slobodno trčati i igrati se s drugim ljubimcima.,Dostupno,10.00,08:00:00,20:00:00
+Aviary za ptice,Prostrana volijera u kojoj ptice mogu letjeti i družiti se.,Dostupan,12.50,08:00:00,16:00:00
+Kuća za gmazove,Kontrolirano okruženje za udoban boravak gmazova.,Ograničena dostupnost,20.00,10:00:00,18:00:00
+Cat Lounge,Miran i ugodan salon posebno dizajniran za mačke.,Dostupan,8.00,09:00:00,19:00:00
+Ograda za male životinje,Zatvoreno igralište za male životinje poput zečeva i zamoraca.,Dostupno,5.00,07:00:00,19:00:00
+Ribnjak,Miran ribnjak za ribe sa svakodnevnim hranjenjem i održavanjem.,Dostupan,18.00,09:00:00,17:00:00
+Zona egzotičnih kućnih ljubimaca,Poseban prostor za egzotične kućne ljubimce poput zmija i guštera.,Dostupan,22.00,10:00:00,16:00:00
+Služba za šetanje pasa,Svakodnevne šetnje pasa uz obučeno osoblje.,Dostupan,10.00,07:00:00,20:00:00
+Tečajevi dresure kućnih ljubimaca,Tečajevi dresure za kućne ljubimce svih vrsta za učenje osnovnih naredbi i trikova.,Dostupno,30.00,08:00:00,18:00:00
+Fotografiranje kućnih ljubimaca,Profesionalno fotografiranje kućnih ljubimaca.,Dostupno,50.00,10:00:00,16:00:00
+Pet Taxi Service,Usluga prijevoza za preuzimanje i iskrcaj kućnih ljubimaca.,Dostupan,15.00,06:00:00,22:00:00
+Veterinar na poziv,Dežurna veterinarska služba za sve hitne slučajeve.,Dostupan,40.00,00:00:00,23:59:59
