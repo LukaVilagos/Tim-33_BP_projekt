@@ -259,3 +259,54 @@ CREATE TABLE rezervacija_ljubimac (
     CONSTRAINT FOREIGN KEY (rezervacija_id) REFERENCES rezervacija (id) ON DELETE SET NULL,
     CONSTRAINT FOREIGN KEY (ljubimac_id) REFERENCES ljubimac (id) ON DELETE SET NULL
 );
+
+-- Okidači
+
+-- Okidač 1: Ažurira ocjenu ustanove nakon nove recenzije
+
+DELIMITER //
+
+CREATE TRIGGER azuriraj_ocjenu_nakon_inserta
+AFTER INSERT ON recenzija
+FOR EACH ROW
+BEGIN
+    DECLARE new_avg_ocjena DECIMAL(3, 2);
+
+    SELECT AVG(ocjena) INTO new_avg_ocjena
+    FROM recenzija
+    WHERE ustanova_id = NEW.ustanova_id;
+
+    UPDATE ustanova
+    SET ocjena = new_avg_ocjena
+    WHERE id = NEW.ustanova_id;
+END;
+//
+
+DELIMITER ;
+
+-- Okidač 2: Osigurava da odabrana ustanova i usluga su povezane čuvarom
+
+DELIMITER //
+
+CREATE TRIGGER validiraj_usluga_cuvar_prije_inserta
+BEFORE INSERT ON rezervacija
+FOR EACH ROW
+BEGIN
+    DECLARE v_count INT;
+
+    SELECT COUNT(*)
+    INTO v_count
+    FROM usluga u
+    JOIN cuvar c ON u.cuvar_id = c.id
+    JOIN cuvar_ustanova cu ON c.id = cu.cuvar_id
+    WHERE u.id = NEW.usluga_id
+    AND cu.ustanova_id = NEW.ustanova_id;
+
+    IF v_count = 0 THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'Odabrana usluga_id nije asocirana sa danom ustanova_id kroz cuvara';
+    END IF;
+END;
+//
+
+DELIMITER ;

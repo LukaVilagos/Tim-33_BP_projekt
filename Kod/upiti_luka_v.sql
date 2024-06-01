@@ -39,6 +39,7 @@ SELECT u.naziv AS ustanova, z.naziv AS znacajka
 -- Pogledi:
 -- 1. Pogled: Pogled prikazuje sve relevantne podatke o ustanovi s značajkom 'Igralište'
 
+DROP VIEW IF EXISTS ustanova_tip_vlasnik_s_igralištem;
 CREATE VIEW ustanova_tip_vlasnik_s_igralištem AS
 	SELECT u.naziv AS ustanova_naziv, t.naziv AS tip_naziv, v.ime AS vlasnik_ime, v.prezime AS vlasnik_prezime, z.naziv AS znacajka_naziv
 		FROM ustanova u
@@ -53,6 +54,7 @@ SELECT * FROM ustanova_tip_vlasnik_s_igralištem;
 
 -- 2. Pogled: Pogled prikazuje sve vlasnike koji imaju ustanova tipa 'Pet Spa' i koliko takvih ustanova imaju
 
+DROP VIEW IF EXISTS broj_ustanova_tipa_pet_spa_odredenog_vlasnika;
 CREATE VIEW broj_ustanova_tipa_pet_spa_odredenog_vlasnika AS
 	SELECT v.ime, v.prezime, (
 		SELECT COUNT(*)
@@ -75,6 +77,7 @@ SELECT * FROM broj_ustanova_tipa_pet_spa_odredenog_vlasnika;
 
 -- 3. Pogled: Pogled prikazuje detaljan prikaz svih podataka o ustanovama.
 
+DROP VIEW IF EXISTS ustanova_detalji;
 CREATE VIEW ustanova_detalji AS
 	SELECT 
 		u.id AS ustanova_id,
@@ -116,6 +119,7 @@ SELECT * FROM ustanova_detalji;
 
 -- 4. Pogled: Pogled prikazuje sve vlasnike koji žive u Zagrebu i njihove ustanove
 
+DROP VIEW IF EXISTS vlasnici_iz_zagreba_i_njihove_ustanove;
 CREATE VIEW vlasnici_iz_zagreba_i_njihove_ustanove AS
 	SELECT v.ime, v.prezime, v.grad, GROUP_CONCAT(u.naziv ORDER BY u.naziv ASC SEPARATOR ', ') AS ustanove
 		FROM ustanova u

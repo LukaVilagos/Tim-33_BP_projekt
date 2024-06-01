@@ -65,6 +65,7 @@ SELECT p.id AS id_pasmina, p.naziv AS pasmina_naziv, COUNT(*) AS broj_ljubimaca
 -- Pogledi:
 -- 1. Pogled: Detaljan prikaz ljubimca:
 
+DROP VIEW IF EXISTS detaljan_prikaz_ljubimac;
 CREATE VIEW detaljan_prikaz_ljubimac AS
 	SELECT 
 		l.id AS ljubimac_id,
@@ -98,6 +99,7 @@ SELECT * FROM detaljan_prikaz_ljubimac;
 
 -- 2. Pogled: vrsta statistika
 
+DROP VIEW IF EXISTS vrsta_statistika;
 CREATE VIEW vrsta_statistika AS
 	SELECT 
 		v.id AS d,
@@ -122,6 +124,7 @@ SELECT * FROM vrsta_statistika;
 
 -- 3. Pogled: ljubimci s više rezervacija
 
+DROP VIEW IF EXISTS ljubimci_s_vise_rezervacija;
 CREATE VIEW ljubimci_s_vise_rezervacija AS
 	SELECT 
 		l.id AS ljubimac_id,
@@ -138,6 +141,7 @@ SELECT * FROM ljubimci_s_vise_rezervacija;
 
 -- 4. Pogled: Pasmina statistika
 
+DROP VIEW IF EXISTS pasmina_statistika;
 CREATE VIEW pasmina_statistika AS
 	SELECT
 		p.id AS pasmina_id,

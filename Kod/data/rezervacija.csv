@@ -1,15 +1,15 @@
 korisnik_id,ustanova_id,usluga_id,datum,napomena,potvrdeno
 1,1,1,2024-01-15 10:30:00,Moj pas ima poseban režim prehrane.,1
-2,3,2,2024-02-20 14:00:00,Moja mačka voli igrati s lopticom.,1
-3,5,3,2024-03-10 09:15:00,Pas je malo sramežljiv.,0
-4,2,4,2024-01-25 16:45:00,Nema posebnih napomena.,1
-5,4,5,2024-04-05 11:30:00,Pas voli duge šetnje.,1
-6,7,6,2024-05-12 08:00:00,Molim vas pazite na moju mačku.,0
-7,6,7,2024-03-14 13:00:00,Nema posebnih napomena.,1
+2,2,2,2024-02-20 14:00:00,Moja mačka voli igrati s lopticom.,1
+3,3,3,2024-03-10 09:15:00,Pas je malo sramežljiv.,0
+4,4,4,2024-01-25 16:45:00,Nema posebnih napomena.,1
+5,5,5,2024-04-05 11:30:00,Pas voli duge šetnje.,1
+6,6,6,2024-05-12 08:00:00,Molim vas pazite na moju mačku.,0
+7,7,7,2024-03-14 13:00:00,Nema posebnih napomena.,1
 8,8,8,2024-02-02 19:00:00,Pas je malo agresivan prema drugim psima.,1
 9,9,9,2024-01-17 09:00:00,Mačka voli igrati s lopticom.,0
-10,11,10,2024-04-22 15:30:00,Nema posebnih napomena.,1
-11,10,11,2024-03-03 14:00:00,Moj pas je alergičan na pšenicu.,1
+10,10,10,2024-04-22 15:30:00,Nema posebnih napomena.,1
+11,11,11,2024-03-03 14:00:00,Moj pas je alergičan na pšenicu.,1
 12,12,12,2024-05-01 12:45:00,Mačka je vrlo sramežljiva.,0
 13,13,13,2024-02-14 18:30:00,Nema posebnih napomena.,1
 14,14,14,2024-03-20 10:00:00,Pas voli igrati s lopticom.,1
@@ -29,33 +29,33 @@ korisnik_id,ustanova_id,usluga_id,datum,napomena,potvrdeno
 28,28,28,2024-02-18 10:30:00,Pas je malo sramežljiv.,0
 29,29,29,2024-01-12 08:00:00,Moj pas je alergičan na pšenicu.,1
 30,1,30,2024-04-08 14:15:00,Nema posebnih napomena.,1
-1,5,1,2024-06-05 09:00:00,Moja ptica voli pjevati ujutro.,1
-2,8,2,2024-06-06 15:30:00,Zmija treba posebnu temperaturu.,1
-3,12,3,2024-06-07 11:00:00,Imam egzotičnu ribu koja zahtijeva posebnu hranu.,0
-4,14,4,2024-06-08 14:45:00,Moj zec voli jesti svježe povrće.,1
-5,19,5,2024-06-09 10:30:00,Ptica voli igrati s ogledalom.,1
-6,21,6,2024-06-10 13:15:00,Zmija je mirna ali treba puno prostora.,0
-7,22,7,2024-06-11 08:45:00,Imam nekoliko malih riba.,1
-8,20,8,2024-06-12 12:00:00,Moja gušterica voli sunčati se.,1
-9,18,9,2024-06-13 17:00:00,Ptica voli letjeti na kratke udaljenosti.,0
-10,17,10,2024-06-14 09:30:00,Zmija zahtijeva redovitu kontrolu temperature.,1
-11,16,11,2024-06-15 16:00:00,Imam tropsku ribu.,1
-12,15,12,2024-06-16 10:00:00,Zec voli žvakati igračke.,0
-13,14,13,2024-06-17 18:00:00,Gušterica treba posebnu hranu.,1
-14,13,14,2024-06-18 14:30:00,Ptica voli pjevati popodne.,1
-15,12,15,2024-06-19 11:30:00,Zmija je navikla na tihu okolinu.,0
-16,11,16,2024-06-20 09:45:00,Imam nekoliko akvarijskih riba.,1
-17,10,17,2024-06-21 13:00:00,Zec voli trčati po dvorištu.,1
-18,9,18,2024-06-22 15:30:00,Gušterica voli penjati se po granama.,0
-19,8,19,2024-06-23 11:15:00,Ptica je društvena i voli razgovarati.,1
-20,7,20,2024-06-24 17:45:00,Zmija zahtijeva redovito hranjenje.,1
-21,6,21,2024-06-25 12:30:00,Imam tropsku ribu.,0
-22,5,22,2024-06-26 08:30:00,Zec voli svježe povrće.,1
-23,4,23,2024-06-27 16:15:00,Gušterica voli toplinu.,1
-24,3,24,2024-06-28 09:00:00,Ptica voli visjeti na ljuljački.,0
-25,2,25,2024-06-29 11:30:00,Zmija je mirna i poslušna.,1
-26,1,26,2024-06-30 14:00:00,Imam nekoliko malih akvarijskih riba.,1
-27,3,27,2024-07-01 16:45:00,Zec voli grickati igračke.,0
-28,5,28,2024-07-02 10:00:00,Gušterica voli penjati se.,1
-29,7,29,2024-07-03 12:30:00,Ptica voli pjevati ujutro.,1
-30,9,30,2024-07-04 08:00:00,Zmija zahtijeva redovito čišćenje terarija.,0
+1,1,1,2024-06-05 09:00:00,Moja ptica voli pjevati ujutro.,1
+2,2,2,2024-06-06 15:30:00,Zmija treba posebnu temperaturu.,1
+3,3,3,2024-06-07 11:00:00,Imam egzotičnu ribu koja zahtijeva posebnu hranu.,0
+4,4,4,2024-06-08 14:45:00,Moj zec voli jesti svježe povrće.,1
+5,5,5,2024-06-09 10:30:00,Ptica voli igrati s ogledalom.,1
+6,6,6,2024-06-10 13:15:00,Zmija je mirna ali treba puno prostora.,0
+7,7,7,2024-06-11 08:45:00,Imam nekoliko malih riba.,1
+8,8,8,2024-06-12 12:00:00,Moja gušterica voli sunčati se.,1
+9,9,9,2024-06-13 17:00:00,Ptica voli letjeti na kratke udaljenosti.,0
+10,10,10,2024-06-14 09:30:00,Zmija zahtijeva redovitu kontrolu temperature.,1
+11,11,11,2024-06-15 16:00:00,Imam tropsku ribu.,1
+12,12,12,2024-06-16 10:00:00,Zec voli žvakati igračke.,0
+13,13,13,2024-06-17 18:00:00,Gušterica treba posebnu hranu.,1
+14,14,14,2024-06-18 14:30:00,Ptica voli pjevati popodne.,1
+15,15,15,2024-06-19 11:30:00,Zmija je navikla na tihu okolinu.,0
+16,16,16,2024-06-20 09:45:00,Imam nekoliko akvarijskih riba.,1
+17,17,17,2024-06-21 13:00:00,Zec voli trčati po dvorištu.,1
+18,18,18,2024-06-22 15:30:00,Gušterica voli penjati se po granama.,0
+19,19,19,2024-06-23 11:15:00,Ptica je društvena i voli razgovarati.,1
+20,20,20,2024-06-24 17:45:00,Zmija zahtijeva redovito hranjenje.,1
+21,21,21,2024-06-25 12:30:00,Imam tropsku ribu.,0
+22,22,22,2024-06-26 08:30:00,Zec voli svježe povrće.,1
+23,23,23,2024-06-27 16:15:00,Gušterica voli toplinu.,1
+24,24,24,2024-06-28 09:00:00,Ptica voli visjeti na ljuljački.,0
+25,25,25,2024-06-29 11:30:00,Zmija je mirna i poslušna.,1
+26,26,26,2024-06-30 14:00:00,Moja gušterica voli sunčati se.,1
+27,27,27,2024-07-01 17:00:00,Zec voli trčati po dvorištu.,0
+28,28,28,2024-07-02 11:30:00,Ptica voli letjeti na kratke udaljenosti.,1
+29,29,29,2024-07-03 09:45:00,Zmija zahtijeva redovitu kontrolu temperature.,1
+30,1,30,2024-07-04 12:15:00,Imam tropsku ribu.,0

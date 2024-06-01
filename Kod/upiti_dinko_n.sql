@@ -57,6 +57,7 @@ ORDER BY cuvar.grad;
 -- Pogledi
 -- 1. Pogled: Koliko rezervacija ima svaka aktivnost.
 
+DROP VIEW IF EXISTS broj_rezervacija;
 CREATE VIEW broj_rezervacija AS
 SELECT aktivnost.naziv AS vrsta_aktivnosti, COUNT(*) AS broj_rezervacija
 FROM cuvar
@@ -69,6 +70,7 @@ SELECT * FROM broj_rezervacija;
 
 -- 2. Pogled: Prema spolu određuje broj čuvara, prosječnu dob i koliko su ukupno zaradili.
 
+DROP VIEW IF EXISTS spolovi;
 CREATE VIEW spolovi AS 
 SELECT
     cuvar.spol,
@@ -83,6 +85,7 @@ SELECT * FROM spolovi;
 
 -- 3. Pogled: Ovaj kod broji aktivnosti s različitim intenzitetima za svaki grad.
 
+DROP VIEW IF EXISTS intenzitet_po_gradu;
 CREATE VIEW intenzitet_po_gradu AS 
 SELECT 
     cuvar.grad AS puni_naziv_grada,
@@ -100,6 +103,7 @@ SELECT * FROM intenzitet_po_gradu;
 
 -- 4. Pogled: Prikaži sve aktivnosti koje traju duže od 1 sata i imaju više od 5 rezervacija.
 
+DROP VIEW IF EXISTS dugacke_popularne_rezervacije;
 CREATE VIEW dugacke_popularne_rezervacije AS
 SELECT * FROM aktivnost 
 WHERE trajanje > '01:00:00' 
