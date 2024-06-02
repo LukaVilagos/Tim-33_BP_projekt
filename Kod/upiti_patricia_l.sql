@@ -122,22 +122,25 @@ CREATE VIEW vrsta_statistika AS
 
 SELECT * FROM vrsta_statistika;
 
--- 3. Pogled: ljubimci s više rezervacija
+-- 3. Pogled: ljubimci s rezervacijama
 
-DROP VIEW IF EXISTS ljubimci_s_vise_rezervacija;
-CREATE VIEW ljubimci_s_vise_rezervacija AS
-	SELECT 
-		l.id AS ljubimac_id,
-		l.ime AS ljubimac_ime,
-		COUNT(rl.rezervacija_id) AS broj_rezervacija
-		FROM ljubimac l
-		JOIN rezervacija_ljubimac rl ON l.id = rl.ljubimac_id
-		GROUP BY l.id
-		HAVING COUNT(rl.rezervacija_id) > 1;
-        
-DROP VIEW ljubimci_s_vise_rezervacija;
-        
-SELECT * FROM ljubimci_s_vise_rezervacija;
+DROP VIEW IF EXISTS ljubimci_s_rezervacijama;
+CREATE VIEW ljubimci_s_rezervacijama AS
+SELECT 
+    l.id AS ljubimac_id,
+    l.ime AS ljubimac_ime,
+    p.naziv AS pasmina_naziv,
+    v.naziv AS vrsta_naziv,
+    rl.rezervacija_id AS rezervacija_id,
+    r.datum AS rezervacija_datum
+FROM 
+    ljubimac l
+    JOIN pasmina p ON l.pasmina_id = p.id
+    JOIN vrsta v ON p.vrsta_id = v.id
+    LEFT JOIN rezervacija_ljubimac rl ON l.id = rl.ljubimac_id
+    LEFT JOIN rezervacija r ON rl.rezervacija_id = r.id;
+
+SELECT * FROM ljubimci_s_rezervacijama;
 
 -- 4. Pogled: Pasmina statistika
 

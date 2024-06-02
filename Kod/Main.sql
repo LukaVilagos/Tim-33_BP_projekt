@@ -91,8 +91,8 @@ CREATE TABLE tip (
 
 CREATE TABLE vlasnik (
 	id INT AUTO_INCREMENT,
-    ime varchar(30) NOT NULL,
-    prezime varchar(30) NOT NULL,
+    ime VARCHAR(30) NOT NULL,
+    prezime VARCHAR(30) NOT NULL,
 	broj_telefona VARCHAR(15),
     email VARCHAR(30) NOT NULL,
     datum_rodenja DATE NOT NULL,
